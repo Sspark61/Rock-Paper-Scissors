@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rock-Paper-Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          class="icon"
+          width="130px"
+          src="Resources/rock-paper-scissors.png"
+          alt="Rock-Paper-Scissors"
+        />
+      </div>
+      <div class="rules">
+        <p class="msg">
+          Rock beats Scissors | Scissors beats Paper | Paper beats Rock
+        </p>
+        <a class="rule">First to 5 WINS!</a>
+        <div class="game">
+          <button class="choices" id="rock">
+            <img class="pics" src="Resources/hand.png" alt="Rock" />
+          </button>
+          <button class="choices" id="paper">
+            <img class="pics" src="Resources/hand-paper.png" alt="Paper" />
+          </button>
+          <button class="choices" id="scissors">
+            <img class="pics" src="Resources/scissors.png" alt="Scissors" />
+          </button>
+        </div>
+      </div>
+      <div class="scoreboard">
+        <div class="player">
+          <p class="Weapon1">Your Weapon</p>
+          <p class="name">Player</p>
+          <p class="pscore">0</p>
+        </div>
+        <div class="player">
+          <p class="Weapon2">Computer's Weapon</p>
+          <p class="name">Computer</p>
+          <p class="cscore">0</p>
+        </div>
+      </div>
+    </div>
+    <script src="back.js"></script>
+  </body>
+</html>
